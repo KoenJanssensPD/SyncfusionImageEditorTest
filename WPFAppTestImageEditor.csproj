@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Assets\Picture1.jpg" />
+	  <None Remove="Assets\Picture10.jpg" />
+	  <None Remove="Assets\Picture11.jpg" />
+	  <None Remove="Assets\Picture11_edited.jpg" />
+	  <None Remove="Assets\Picture1_edited.jpg" />
+	  <None Remove="Assets\Picture2.jpg" />
+	  <None Remove="Assets\Picture3.jpg" />
+	  <None Remove="Assets\Picture4.jpg" />
+	  <None Remove="Assets\Picture4_edited.jpg" />
+	  <None Remove="Assets\Picture5.jpg" />
+	  <None Remove="Assets\Picture6.jpg" />
+	  <None Remove="Assets\Picture7.jpg" />
+	  <None Remove="Assets\Picture8.jpg" />
+	  <None Remove="Assets\Picture9.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Assets\Picture1.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture10.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture11.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture11_edited.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture1_edited.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture2.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture3.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture4.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture4_edited.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture5.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture6.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture7.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture8.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\Picture9.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+	  <PackageReference Include="Syncfusion.SfImageEditor.WPF" Version="19.4.0.50" />
+	</ItemGroup>
+
+</Project>

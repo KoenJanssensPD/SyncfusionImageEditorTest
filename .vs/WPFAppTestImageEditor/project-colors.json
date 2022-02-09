@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6b355d23-f3ff-410c-be04-27d356acd38a": {
+      "ProjectGuid": "6b355d23-f3ff-410c-be04-27d356acd38a",
+      "DisplayName": "WPFAppTestImageEditor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

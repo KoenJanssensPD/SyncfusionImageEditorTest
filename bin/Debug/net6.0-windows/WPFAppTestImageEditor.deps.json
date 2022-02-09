@@ -1,0 +1,113 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WPFAppTestImageEditor/1.0.0": {
+        "dependencies": {
+          "Ookii.Dialogs.Wpf": "5.0.1",
+          "Syncfusion.SfImageEditor.WPF": "19.4.0.50"
+        },
+        "runtime": {
+          "WPFAppTestImageEditor.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.4.0.50": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.4.0.50",
+            "fileVersion": "19.4.0.50"
+          }
+        }
+      },
+      "Syncfusion.SfImageEditor.WPF/19.4.0.50": {
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "19.4.0.50",
+          "Syncfusion.Tools.WPF": "19.4.0.50"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfImageEditor.WPF.dll": {
+            "assemblyVersion": "19.4500.0.50",
+            "fileVersion": "19.4500.0.50"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/19.4.0.50": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.50"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "19.4500.0.50",
+            "fileVersion": "19.4500.0.50"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/19.4.0.50": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.50",
+          "Syncfusion.Shared.WPF": "19.4.0.50"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "19.4500.0.50",
+            "fileVersion": "19.4500.0.50"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFAppTestImageEditor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "hashPath": "ookii.dialogs.wpf.5.0.1.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MxYlZPYEpgUDI8b8+WWeRnS1bVuQMYuq5KNGfdeXHUSQXTk0bzDQsAAlPoDOOnPFdOYgr6QuJY99ROvIE+b4NA==",
+      "path": "syncfusion.licensing/19.4.0.50",
+      "hashPath": "syncfusion.licensing.19.4.0.50.nupkg.sha512"
+    },
+    "Syncfusion.SfImageEditor.WPF/19.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qUsYHRtnckG4m/bHt0t5DBY2b1ZJmkdtOuZKS9A2V599dD129MaeVhepTNwAoWp+8KZ3a1/7DUuP8YvOXXOpXQ==",
+      "path": "syncfusion.sfimageeditor.wpf/19.4.0.50",
+      "hashPath": "syncfusion.sfimageeditor.wpf.19.4.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/19.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G+/52bcKZiGUYG9q2P8NEt29+/EVuQ2+9GZW6NMrU9wCNgThWGPIzfp3CqKVh9qslUcuqgWKCOQ14qsPsTR0kA==",
+      "path": "syncfusion.shared.wpf/19.4.0.50",
+      "hashPath": "syncfusion.shared.wpf.19.4.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Tools.WPF/19.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhQtD9b9Uu1nttTlbGRNkKqfpaD7T5gqe5nk4BZcvGNnL6Ob0C4S0JvYViyjERJinGG+Y2rQ4f07sSUUXyrFIQ==",
+      "path": "syncfusion.tools.wpf/19.4.0.50",
+      "hashPath": "syncfusion.tools.wpf.19.4.0.50.nupkg.sha512"
+    }
+  }
+}
